@@ -1,0 +1,54 @@
+.container{
+  margin: 70px 0px 0px 120px;
+display: flex;
+gap: 30px;
+}
+
+.card{
+  width: 400px;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.detail{
+  display: flex;
+}
+
+h5{
+  flex: 50%;
+  text-align: center;
+  font-weight: 400;
+}
+
+h6{
+  flex: 50%;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+}
+
+span{
+  font-weight: 400;
+  font-size: small;
+  padding: 10px;
+}
+
+button{
+  margin: 40px 50px;
+  width: 300px;
+  background-color: #c9d6da;
+  border-radius: 20px;
+  border: none;
+  height: 30px;
+}
+
+h1{
+  text-align: center;
+  color: rgb(28, 69, 79);
+}
